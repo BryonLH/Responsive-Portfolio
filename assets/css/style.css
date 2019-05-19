@@ -1,0 +1,508 @@
+html {
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+  }
+
+body {
+    background-image: url("../images/floor-tile.png");
+    background-repeat: repeat;
+    margin:0;
+}
+
+h1 {
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color:#ffffff;
+    border-bottom:3px;
+    border-bottom-style:solid;
+    border-bottom-color:#cccccc;
+    height:90px;
+    margin-top:-10px;
+}
+
+.header {
+    width:960px;
+    margin:0 auto;
+}
+
+.title {
+    float:left;
+    background-color:#4aaaa5;
+    padding-right:15px;
+    padding-left:15px;
+    height:90px;
+}
+
+.navigation {
+    float:right;
+    margin-top:5px;
+    color:grey;
+}
+
+ul {
+    list-style: none;
+    margin-top:30px;
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display:block;
+    text-align: center;
+    padding:5px;
+    margin-right:10px;
+    margin-left:10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#666666;
+}
+
+li a:hover {
+    background-color:#FF6F24;
+    color:white;
+}
+
+#navlink1  {
+    border-right-style:solid;
+    border-right-width:1px;
+    border-right-color:rgb(192, 192, 192);
+}
+
+#navlink2  {
+    border-right-style:solid;
+    border-right-width:1px;
+    border-right-color:rgb(192, 192, 192);
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:20px;
+    margin-bottom:40px;
+    background-color:#ffffff;
+    width:960px;
+    border-style: solid;
+    border-color:#dddddd;
+    border-width:2px;
+    overflow: auto;
+}
+
+.main-content {
+    padding-right:15px;
+    padding-left:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.main-content-below-header {
+    border-top-style: solid;
+    border-top-width:2px;
+    border-top-color:#c9c9c9;
+    padding-top:20px;
+}
+
+#bio-image {
+    float:left;
+    width:20%;
+    margin-right:15px;
+    margin-bottom:15px;
+}
+
+.aboutme {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:24px;
+}
+
+.form-field-label {
+    margin-top:15px;
+    margin-bottom:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    color: #777777;
+}
+
+.form-field-entry { 
+    width:98%;
+    padding:5px 10px;
+    border: .5px solid #ccc;
+    border-radius: 2px;
+    color: #777777;
+}
+
+.button {
+    margin-top:25px;
+    background-color:#4aaaa5;
+    padding-right:25px;
+    padding-left:25px;
+    padding-top:8px;
+    padding-bottom: 8px;
+    border: none;
+    color:white;
+    font-size:20px;
+}
+
+.portfolio-project {
+    float:left;
+    width:35%;
+    margin-bottom:30px;
+    position:relative;
+    margin-right:20px;
+}
+
+.portfolio-image {
+    width:100%;
+}
+
+.portfolio-text {
+    position:absolute;
+    bottom: 15px;
+    width:100%;
+    height:20%;
+    background-color:#4aaaa5;
+    color:white;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    /* padding-top:20px;
+    padding-bottom:20px; */
+}
+
+.portfolio-text:hover {
+    background-color:#FF6F24;
+}
+
+.footer {
+    background-color:#666666;
+    border-top-style:solid;
+    border-top-width: 8px;
+    border-color:#4aaaa5;
+    width:100%;
+    margin-top:100px;
+    position:fixed;
+    bottom:0;
+}
+
+.footer-content {
+    text-align:center;
+    color:lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+@media screen and (max-width: 980px) {
+    header {
+        height:90px;
+        margin-top:-10px;
+    }
+    
+    .header {
+        width:960px;
+        margin:0 auto;
+    }
+    
+    .title {
+        float:left;
+        padding-right:15px;
+        padding-left:15px;
+        height:90px;
+    }
+    
+    .navigation {
+        float:right;
+        margin-top:5px;
+    }
+    
+    ul {
+        margin-top:30px;
+    }
+    
+    li {
+        float:left;
+    }
+    
+    li a {
+        display:block;
+        text-align: center;
+        padding:5px;
+        margin-right:10px;
+        margin-left:10px;
+    }
+    
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top:20px;
+        margin-bottom:40px;
+        width:960px;
+        overflow: auto;
+    }
+    
+    .main-content {
+        padding-right:15px;
+        padding-left:15px;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    
+    .main-content-below-header {
+        padding-top:20px;
+    }
+    
+    #bio-image {
+        float:left;
+        width:20%;
+        margin-right:15px;
+        margin-bottom:15px;
+    }
+    
+    .form-field-label {
+        margin-top:15px;
+        margin-bottom:5px;
+    }
+    
+    .form-field-entry { 
+        width:98%;
+        padding:5px 10px;
+    }
+    
+    .portfolio-project {
+        float:left;
+        width:35%;
+        margin-bottom:30px;
+        position:relative;
+        margin-right:20px;
+    }
+    
+    .portfolio-image {
+        width:100%;
+    }
+    
+    .portfolio-text {
+        position:absolute;
+        bottom: 10%;
+        width:100%;
+        height:20%;
+        text-align:center;
+        /* padding-top:20px;
+        padding-bottom:20px; */
+    }
+    
+    .footer {
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height:90px;
+        margin-top:-10px;
+    }
+    
+    .header {
+        width:748px;
+        margin:0 auto;
+    }
+    
+    .title {
+        float:left;
+        padding-right:15px;
+        padding-left:15px;
+        height:90px;
+    }
+    
+    .navigation {
+        float:left;
+        margin-top:5px;
+    }
+    
+    ul {
+        margin-top:30px;
+    }
+    
+    li {
+        float:left;
+    }
+    
+    li a {
+        display:block;
+        text-align: center;
+        padding:5px;
+        margin-right:10px;
+        margin-left:10px;
+    }
+    
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top:20px;
+        margin-bottom:40px;
+        width:748px;
+        overflow: auto;
+    }
+    
+    .main-content {
+        padding-right:15px;
+        padding-left:15px;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    
+    .main-content-below-header {
+        padding-top:20px;
+    }
+    
+    #bio-image {
+        float:left;
+        width:20%;
+        margin-right:15px;
+        margin-bottom:15px;
+    }
+    
+    .form-field-label {
+        margin-top:15px;
+        margin-bottom:5px;
+    }
+    
+    .form-field-entry { 
+        width:98%;
+        padding:5px 10px;
+    }
+    
+    .portfolio-project {
+        float:left;
+        width:35%;
+        margin-bottom:30px;
+        position:relative;
+        margin-right:20px;
+    }
+    
+    .portfolio-image {
+        width:100%;
+    }
+    
+    .portfolio-text {
+        position:absolute;
+        bottom: 15px;
+        width:100%;
+        height:20%;
+        text-align:center;
+        /* padding-top:20px;
+        padding-bottom:20px; */
+    }
+    
+    .footer {
+        width:100%;
+        /* margin-top:100px; */
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        height:90px;
+        margin-top:-10px;
+    }
+    
+    .header {
+        width:100%;
+        margin:0 auto;
+    }
+    
+    .title {
+        float:left;
+        padding-right:15px;
+        padding-left:15px;
+        height:90px;
+    }
+    
+    .navigation {
+        float:right;
+        margin-top:5px;
+    }
+    
+    ul {
+        margin-top:30px;
+    }
+    
+    li {
+        float:left;
+    }
+    
+    li a {
+        display:block;
+        text-align: center;
+        padding:5px;
+        margin-right:10px;
+        margin-left:10px;
+    }
+    
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top:20px;
+        margin-bottom:40px;
+        width:100%;
+        }
+    
+    .main-content {
+        padding-right:15px;
+        padding-left:15px;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    
+    #bio-image {
+        float:left;
+        width:20%;
+        margin-right:15px;
+        margin-bottom:15px;
+    }
+    
+    .form-field-label {
+        margin-top:15px;
+        margin-bottom:5px;
+    }
+    
+    .form-field-entry { 
+        width:98%;
+        padding:5px 10px;
+    }
+    
+    .portfolio-project {
+        float:left;
+        width:35%;
+        margin-bottom:30px;
+        position:relative;
+        margin-right:20px;
+    }
+    
+    .portfolio-image {
+        width:100%;
+    }
+    
+    .portfolio-text {
+        position:absolute;
+        bottom: 10%;
+        width:100%;
+        height:20%;
+        text-align:center;
+        /* padding-top:20px;
+        padding-bottom:20px; */
+    }
+    
+    .footer {
+        width:100%;
+        /* margin-top:100px; */
+    }
+}
